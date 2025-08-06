@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/bookings")
+@RequestMapping("/bookings")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "*")
 public class BookingController {
